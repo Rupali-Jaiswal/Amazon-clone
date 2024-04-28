@@ -1,0 +1,285 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+	font-size: small;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.navbar{
+	height: 60px;
+	box-sizing: border-box;
+	background-color: #0c2435;
+	display: flex;
+	align-items:center ;
+}
+
+.nav-logo{
+	margin: 5px;
+	 height: 95%;
+	 width: 120px;
+}
+.logo{
+	background-image: url(../images/amazon_logo.png);
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+.nav-address{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 95%;
+	justify-content: center;
+	width: 190px;
+	padding: 5px;
+}
+.add-para1{
+	color: white;  text-align: center;
+}
+.add-para2{
+	color: white; margin: 3px;
+}
+.add-icon{
+	display: flex ; justify-content: center
+}
+.border{
+	border: 1.5px solid transparent;
+}
+.border:hover{
+	border: white 1.5px solid;
+}
+
+.nav-search{
+	box-sizing: border-box;
+	height: 65%;
+	align-items: center;
+}
+.nav-form{
+	margin: 2px;
+	height: 100%;
+	max-width:100%;
+	min-width: 50%;
+	display: flex;
+	flex-direction: row;
+}
+.nav-form input{
+	padding-left: 30px;
+	font-size: larger;
+	height: 100%;
+	width: 310px;
+	border:none;
+}
+.nav-form select{
+	width: 55px;
+	height: 100%;
+	border-left:none;
+	border-top:none;
+	border-bottom:none;
+	cursor:pointer;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius:5px ;
+	font-size:small;
+	padding-left: 5px;
+}
+.nav-form button{
+	height: 100%;
+	width: 50px;
+	border:none;
+	background:#f0b67d;
+	cursor:pointer;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius:5px ;
+	font-size: 2 rem;
+}
+.lang{
+	height: 95%;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 6px;
+}
+.lang select{
+	text-align: center;
+	font-weight: 5;
+	background-color: transparent;	
+	color: white;
+	border: none;
+}
+.lang select option{
+	background-color: transparent;	
+	color: black;
+}
+.nav-signin{
+	width: 100px;
+	height: 95%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.nav-signin a{
+	text-decoration: none;
+	color: white;
+}
+
+.nav-order{
+	width: 100px;
+	height: 95%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.nav-order a{
+	text-decoration: none;
+	color: white;
+}
+.cart{
+	width: 100px;
+	height: 95%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.cart a{
+	text-decoration: none;
+	color: white;
+}
+.cart a i{
+	padding-top: 4px;
+}
+.nav-form:hover{
+	border: 2px solid #f0b67d;
+	border-radius: 5px;
+}
+
+.panel{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: #232f3e;
+	height: 40px;
+	width: 100%;
+}
+.panel-all{
+	height: 40px;
+}
+.menu{
+	padding: 10px;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	text-decoration: none;
+}
+
+.panel-ops{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.ops{
+	display: flex;
+	align-items: center;
+	height: 40px;
+	padding: 6px;
+	width: fit-content;
+}
+.ops a{
+	color: white;
+	text-decoration: none;
+}
+
+.sub-border{
+	height: 100%;
+	font-size: larger;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	position: relative;
+	left: 330px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.sub-border a{
+	color: white;
+	text-decoration: none;
+}
+.main-section{
+	height: 390px;
+	background-image: url(../images/hero_image.jpg);
+	background-size: cover;
+}
+.line{
+	FONT-WEIGHT: 100;
+	background-color: white;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: relative;
+	top: 310px;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.box{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background-color:gainsboro;
+	box-sizing: border-box;
+}
+
+.itom{
+	width: 355px;
+	margin: 10px;
+	height: 400px;
+	background-color: whitesmoke;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+.itom div h2 {
+	font-size: larger;
+	padding-left: 20px;
+	text-align: center;
+	padding-right: 20px;
+}
+.itom div a{
+	font-size: larger;
+	
+}
+
+.Cmargin{
+	margin: 35px;
+}
+
+.navFooterVerticalRow  a{
+	text-decoration: none;
+	color: white;
+	padding-top: 4px;
+	padding-bottom:4px;
+}
+
+.navFooterVerticalRow ul{
+	list-style: none;
+}
+.navFooterColHead{
+	font-size: 20px;
+}
+
+.navAccessibility{
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+}
+
+

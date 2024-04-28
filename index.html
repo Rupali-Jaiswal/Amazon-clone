@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Amazon</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<script src="https://kit.fontawesome.com/d5b0b51520.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://fonts.google.com/specimen/PT+Sans">
+	<link rel="stylesheet" href="css/sidenav.css">
+</head>
+
+<body>
+	<header>
+		<div id="mySidenav" class="sidenav">
+			<div class="a1">
+				<a href="#">About</a>
+				<a href="#">Clients</a>
+				<a href="#">Services</a>
+				<a href="#">Contact</a>
+			</div>
+			<div class="a2">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			</div>
+		</div>
+		<script>
+			function openNav() {
+				document.getElementById("mySidenav").style.width = "100%"
+			}
+			function closeNav() {
+				document.getElementById("mySidenav").style.width = "0";
+			}
+		</script>
+		<div class="navbar">
+			<div class="nav-logo border">
+				<div class="logo"></div>
+			</div>
+			<div class="nav-address border">
+				<div class="add-para1">Hello</div>
+				<div class="add-icon">
+					<i class="fa-sharp fa-solid fa-location-dot" style="color:white; padding:3px;"></i>
+					<p class="add-para2">Select your address</p>
+				</div>
+			</div>
+			<div class="nav-search">
+				<form class="nav-form" action="/" method="post">
+					<select name="all" id="">
+						<option value="">All</option>
+					</select>
+					<input type="text" name="Search" id="Search" placeholder="Search...">
+					<button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+				</form>
+			</div>
+			<div class="lang border">
+				<select name="Longuage">
+					<option value="0">Language</option>
+					<option value="1">Hindi</option>
+					<option value="2">English</option>
+				</select>
+			</div>
+			<div class="nav-signin border">
+				<a href="/sign-in">
+					<p><span>
+							<h5>Hello,</h5>
+						</span></p>
+					<p>Sign-in</p>
+				</a>
+			</div>
+			<div class="nav-order border">
+				<a href="/order">
+					<p><span>Order &</span></p>
+					<p><span>Return</span></p>
+				</a>
+			</div>
+			<div class="cart border">
+				<a href="/cart">
+					<i class="fa-solid fa-cart-shopping fa-2xl"></i>
+				</a>
+			</div>
+		</div>
+		<div class="panel">
+			<div class="panal-all border">
+				<a class="menu" href="javescript:void(0)" onclick="openNav()">
+					<i class="fa-solid fa-bars"></i>
+					<h3 style="padding-left: 4px;">All</h3>
+				</a>
+			</div>
+			<div class="panel-ops">
+				<div class="ops border">
+					<a href="/">Amazon MiniTV</a>
+				</div>
+				<div class="ops border">
+					<a href="/">Sells</a>
+				</div>
+				<div class="ops border">
+					<a href="">Best Sellers</a>
+				</div>
+				<div class="ops border">
+					<a href="/">Mobiles</a>
+				</div>
+				<div class="ops border">
+					<a href="/">Todays Deals</a>
+				</div>
+				<div class="ops border">
+					<a href="/">Costomer services</a>
+				</div>
+			</div>
+			<div class="sub-border border">
+				<a href="/">
+					Get Amazon Prime Subscription
+				</a>
+			</div>
+		</div>
+	</header>
+	<div class="main-section">
+		<div class="line">
+			You are now on Amazon.You can also shop on amazon india for more product.
+		</div>
+	</div>
+	<div class="box">
+		<div class="itom">
+			<div style="height: 10%;display: flex; align-items: center;justify-content: center; margin: 4px;">
+				<h2>
+					Now get medicine deliverd |
+					Upto 30% Off</h2>
+			</div>
+			<div style="width: 90%;
+				height: 70%;margin: 5px;">
+				<a href="/">
+					<img src="images/medicine.jpg" style="height: 100%;
+						width: 100%;">
+				</a>
+			</div>
+			<div style="height:10%;display: flex; align-items: center;justify-content: center;margin: 5px;">
+				<a style="text-decoration: none;" href="/">visit store</a>
+			</div>
+		</div>
+		<div class="itom">
+			<div style="height: 10%;display: flex; align-items: center;justify-content: center; margin: 4px;">
+				<h2>
+					Upto 70% Off |
+					Styles for Women</h2>
+			</div>
+			<div style="width: 90%;
+				height: 70%;margin: 5px;">
+				<a href="/">
+					<img src="images/box8_image.jpg" style="height: 100%;
+						width: 100%;">
+				</a>
+			</div>
+			<div style="height:10%;display: flex; align-items: center;justify-content: center;margin: 5px;">
+				<a style="text-decoration: none;" href="/">Mega Fashion Days</a>
+			</div>
+		</div>
+		<div class="itom">
+			<div style="height: 10%;display: flex; align-items: center;justify-content: center; margin: 4px;">
+				<h2>
+					Get Shaving tools and more Upto20% Off</h2>
+			</div>
+			<div style="width: 90%;
+				height: 70%;margin: 5px;">
+				<a href="/">
+					<img src="images/box2_image.jpg" style="height: 100%;
+						width: 100%;">
+				</a>
+			</div>
+			<div style="height:10%;display: flex; align-items: center;justify-content: center;margin: 5px;">
+				<a style="text-decoration: none;" href="/">See More</a>
+			</div>
+		</div>
+		<div class="itom">
+			<div style="height: 10%;display: flex; align-items: center;justify-content: center; margin: 4px;">
+				<h2>
+					Smartphones and basic Mobiles</h2>
+			</div>
+			<div style="width: 90%;
+				height: 70%;margin: 5px;">
+				<a href="/">
+					<img src="images/box4_image.jpg" style="height: 100%;
+						width: 100%;">
+				</a>
+			</div>
+			<div style="height:10%;display: flex; align-items: center;justify-content: center;margin: 5px;">
+				<a style="text-decoration: none;" href="/">See More</a>
+			</div>
+		</div>
+		<div class="itom">
+			<div
+				style="height: 10%;display: flex; align-items: center;justify-content: center; margin: 4px;padding-left: 20px;padding-right: 20px;text-align: center;">
+				<h2>
+					Upto 45% off | Beauty products from stores near you</h2>
+			</div>
+			<div style="width: 90%;
+				height: 70%;margin: 5px;">
+				<a href="/">
+					<img src="images/box5_image.jpg" style="height: 100%;
+						width: 100%;">
+				</a>
+			</div>
+			<div style="height:10%;display: flex; align-items: center;justify-content: center;margin: 5px;">
+				<a style="text-decoration: none;" href="/">See more</a>
+			</div>
+		</div>
+		<div class="itom">
+			<div style="height: 10%;display: flex; align-items: center;justify-content: center; margin: 4px;">
+				<h2>
+					Get Child toys Upto 40% Off</h2>
+			</div>
+			<div style="width: 90%;
+				height: 70%;margin: 5px;">
+				<a href="/">
+					<img src="images/box7_image.jpg" style="height: 100%;
+						width: 100%;">
+				</a>
+			</div>
+			<div style="height:10%;display: flex; align-items: center;justify-content: center;margin: 5px;">
+				<a style="text-decoration: none;" href="/">See More</a>
+			</div>
+		</div>
+	</div>
+	<div class="navFooterVerticalColumn role="presentation">
+		<div class="navFooterVerticalRow" style="display:flex; flex-wrap: wrap;
+		justify-content: center;align-items:baseline;padding: 40px; background-color: #232f3e; color: white;">
+			<div class="navFooterLinkCol navAccessibility Cmargin">
+				<div class="navFooterColHead">Get to Know Us</div>
+				<ul>
+					<li>
+						<a href="https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer" class="nav_a">About
+							Us</a>
+					</li>
+					<li>
+						<a href="https://amazon.jobs" class="nav_a">Careers</a>
+					</li>
+					<li>
+						<a href="https://press.aboutamazon.in/?utm_source=gateway&utm_medium=footer" class="nav_a">Press
+							Releases</a>
+					</li>
+					<li class="nav_last ">
+						<a href="https://www.amazon.science" class="nav_a">Amazon Science</a>
+					</li>
+				</ul>
+			</div>
+			<div class="navFooterLinkCol navAccessibility Cmargin">
+				<div class="navFooterColHead">Connect with Us</div>
+				<ul>
+					<li class="nav_first">
+						<a href="https://www.amazon.in/gp/redirect.html/ref=footer_fb?location=http://www.facebook.com/AmazonIN&token=2075D5EAC7BB214089728E2183FD391706D41E94&6"
+							class="nav_a">Facebook</a>
+					</li>
+					<li>
+						<a href="https://www.amazon.in/gp/redirect.html/ref=footer_twitter?location=http://twitter.com/AmazonIN&token=A309DFBFCB1E37A808FF531934855DC817F130B6&6"
+							class="nav_a">Twitter</a>
+					</li>
+					<li class="nav_last ">
+						<a href="https://www.amazon.in/gp/redirect.html?location=https://www.instagram.com/amazondotin&token=264882C912E9D005CB1D9B61F12E125D5DF9BFC7&source=standards"
+							class="nav_a">Instagram</a>
+					</li>
+				</ul>
+			</div>
+			<div class="navFooterLinkCol navAccessibility Cmargin">
+				<div class="navFooterColHead">Make Money with Us</div>
+				<ul>
+					<li class="nav_first">
+						<a href="/b/?node=2838698031&ld=AZINSOANavDesktopFooter_C&ref_=nav_footer_sell_C"
+							class="nav_a">Sell on Amazon</a>
+					</li>
+					<li>
+						<a href="https://accelerator.amazon.in/?ref_=map_1_b2b_GW_FT" class="nav_a">Sell under Amazon
+							Accelerator</a>
+					</li>
+					<li>
+						<a href="https://brandservices.amazon.in/?ref=AOINABRLGNRFOOT&ld=AOINABRLGNRFOOT"
+							class="nav_a">Protect and Build Your Brand</a>
+					</li>
+					<li>
+						<a href="https://sell.amazon.in/grow-your-business/amazon-global-selling.html?ld=AZIN_Footer_V1&ref=AZIN_Footer_V1"
+							class="nav_a">Amazon Global Selling</a>
+					</li>
+					<li>
+						<a href="https://affiliate-program.amazon.in/?utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW&ref_=footer_assoc"
+							class="nav_a">Become an Affiliate</a>
+					</li>
+					<li>
+						<a href="https://services.amazon.in/services/fulfilment-by-amazon/benefits.html/ref=az_footer_fba?ld=AWRGINFBAfooter"
+							class="nav_a">Fulfilment by Amazon</a>
+					</li>
+					<li>
+						<a href="https://advertising.amazon.in/?ref=Amz.in" class="nav_a">Advertise Your Products</a>
+					</li>
+					<li class="nav_last ">
+						<a href="https://www.amazonpay.in/merchant" class="nav_a">Amazon Pay on Merchants</a>
+					</li>
+				</ul>
+			</div>
+			<div class="navFooterLinkCol navAccessibility Cmargin">
+				<div class="navFooterColHead">Let Us Help You</div>
+				<ul>
+					<li class="nav_first">
+						<a href="/gp/help/customer/display.html?nodeId=GDFU3JS5AL6SYHRD&ref_=footer_covid"
+							class="nav_a">COVID-19 and Amazon</a>
+					</li>
+					<li>
+						<a href="/gp/css/homepage.html?ref_=footer_ya" class="nav_a">Your Account</a>
+					</li>
+					<li>
+						<a href="/gp/css/returns/homepage.html?ref_=footer_hy_f_4" class="nav_a">Returns Centre</a>
+					</li>
+					<li>
+						<a href="/gp/help/customer/display.html?nodeId=201083470&ref_=footer_swc" class="nav_a">100%
+							Purchase Protection</a>
+					</li>
+					<li>
+						<a href="/gp/browse.html?node=6967393031&ref_=footer_mobapp" class="nav_a">Amazon App
+							Download</a>
+					</li>
+					<li class="nav_last ">
+						<a href="/gp/help/customer/display.html?nodeId=200507590&ref_=footer_gw_m_b_he"
+							class="nav_a">Help</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

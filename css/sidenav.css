@@ -1,0 +1,54 @@
+body {
+	font-family: "Lato", sans-serif;
+  }
+  
+  @media screen and (max-height: 450px) {
+	  .sidenav {padding-top: 15px;}
+	  .sidenav a {font-size: 18px;}
+	}
+  
+  .sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	overflow-x: hidden;
+	transition: 0.4s;
+	display: flex;
+	flex-direction: row;
+}
+.a1{
+	width: 30%;
+	background-color:white;
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+}
+.a2{
+	width: 70%;
+  background-color: rgba(0,0,0,0.6); 
+}
+
+.a1 a {
+	padding: 10px;
+	text-decoration: none;
+	font-size: 25px;
+	color: black;
+  }
+  
+  .a1 a:hover {
+	color: #132aae;
+  }
+  
+   .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 50px;
+	margin-left: 50px;
+	color: white;
+	text-decoration: none;
+  }
+  
